@@ -1,7 +1,7 @@
 +TOOL:bwa
 ARGS
     <else>
-        bwa --help
+        bwa
     <main>
         bwa ::*APP-ARGS*::
 RUN

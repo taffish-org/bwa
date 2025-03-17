@@ -1,7 +1,7 @@
 # <bwa:0.7.18 | KaiyuanHan | 2025-03-17>
 ARGS
     <else>
-        bwa --help
+        bwa
     <main>
         bwa ::*APP-ARGS*::
 RUN
