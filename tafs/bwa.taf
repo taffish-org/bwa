@@ -1,0 +1,9 @@
++TOOL:bwa
+ARGS
+    <else>
+        bwa --help
+    <main>
+        bwa ::*APP-ARGS*::
+RUN
+    <container:taf-bwa-v0.7.18:ghcr.io/taffish-org/bwa:0.7.18>
+        ::*MAIN*::
